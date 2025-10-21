@@ -1,20 +1,24 @@
-# Show cartoons for both chains
+# Color each chain
+color /A green
+color /B red
+
+
+# Show cartoons for both chains (optional)
 cartoon
 # Show semi-transparent surface
 surface
 transparency 60 surface
-# Color each chain's cartoon (and surface, if shown)
-color /A green
-color /B red
+
 # label a few of them
 label :11.A
 label :50.B
 show surface
 transparency 70 surface
+
 # Find/display interface contacts and print residue-residue contact table
 contacts /A restrict /B distanceOnly 4 log true namingStyle residue color gold showDist true
 # Fit the model and remove interface lines (pseudobonds) to clean up (optional)
 view
 ~contacts
 
-save my_interface.png supersample 3 width 1600  # Or whatever size you prefer!
+save my_interface.png supersample 3 width 1600  
