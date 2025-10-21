@@ -1,0 +1,6 @@
+Open both structures
+Select TSR range in both (select #1:xxx-yyy #2:aaa-bbb)
+Superimpose: matchmaker #1:xxx-yyy #2:aaa-bbb
+Color/model as cartoon for easy comparison
+
+matchmaker #1/A:337-390 to #2/C:306-374 showAlignment true
